@@ -1,0 +1,9 @@
+# CODEOWNERS
+# Code ownership and required reviewers
+
+packages/ai-orchestrator/src/agents/ @GlacierEQ
+packages/ai-orchestrator/src/kernel/ @GlacierEQ
+governance/ @GlacierEQ
+docs/ @GlacierEQ
+.github/ @GlacierEQ
+package.json @GlacierEQ
