@@ -1,146 +1,147 @@
-# 🚀 Mastermind
+# 🧠 Mastermind: Unified Forensic-Legal-Repair Omnibus
 
-**The AI-Powered Development Operating System**
+> **AI-Powered Development Operating System** merged with **Federal Forensic Repair Infrastructure** for comprehensive device repair, evidence processing, and legal automation.
 
-Generate production-ready microservices in 45 minutes. Autonomous infrastructure. Zero downtime deployments. Complete observability.
+## 🎯 Mission
 
-> **What takes enterprise teams weeks, Mastermind does in minutes.**
+Transform case management, device forensics, and legal automation through 9 specialized AI agents working in orchestrated harmony.
 
-## ✨ What Is Mastermind?
+## 🏗️ Architecture
 
-Mastermind is a sophisticated AI orchestration system with 9 specialized agents that work together to completely automate the development lifecycle:
+### 9 Specialized AI Agents
 
-- **🏗️ Architecture Design** → Clean, type-safe services
-- **🧪 Test Generation** → 85%+ coverage guaranteed
-- **⚙️ Infrastructure** → Docker, Kubernetes, Terraform
-- **📚 Documentation** → API docs, guides, diagrams
-- **🔄 Migrations** → Safe breaking changes, codemods
-- **📊 Observability** → Prometheus, Grafana, OpenTelemetry
-- **🚀 Deployments** → Blue-green, canary, zero-downtime
-- **🆘 Operations** → Incident response, disaster recovery
-- **🔐 Security** → Hardened containers, no SQL injection
+1. **Forensic Analyst** - Evidence processing, financial analysis, timeline reconstruction
+2. **Legal Automation** - Motion generation, citation engine, deadline tracking  
+3. **Device Repair** - Multi-platform repair (Windows/Mac/iOS/Android/Linux)
+4. **Malware Detection** - Firmware scanning, rootkit detection, threat analysis
+5. **Data Recovery** - Deleted files, corrupted disks, RAID reconstruction
+6. **Chain-of-Custody** - Evidence logging, cryptographic verification
+7. **Adversarial Analysis** - Pattern recognition, anomaly detection
+8. **Documentation** - Forensic reports, court exhibits, visualizations
+9. **Integration Orchestrator** - Multi-agent coordination
 
-All orchestrated by a sophisticated kernel that plans, executes, validates, and learns.
+### Core Capabilities
 
-## 📈 The Impact
+- **📱 Multi-Platform Device Repair**: Windows, macOS, iOS, Android, Linux
+- **⚖️ Legal Automation**: Motion templates, citation engine, filing management
+- **🔬 Forensic Analysis**: Evidence processing, timeline reconstruction, integrity verification
+- **🔐 Chain-of-Custody**: Cryptographic timestamping, hash verification, audit trails
+- **🤖 AI Orchestration**: Multi-agent collaboration via Vill-AI-ge
+- **💾 Evidence Processing**: Financial, property, communications, phone records
 
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| **Time per service** | 80 hours | 25 minutes | **192x faster** |
-| **Test coverage** | 60% avg | 85% guaranteed | **+42%** |
-| **Deployment downtime** | 15-30 min | 0 seconds | **100%** |
-| **Incident response** | 2+ hours | <10 min | **12x faster** |
-| **Cost per service** | $12,000 | $21 | **571x cheaper** |
+## 📂 Repository Structure
 
-## 🎯 The 9 Agents
+```
+mastermind/
+├── agents/              # 9 specialized AI agents
+├── case-files/          # Legal case evidence & processing
+├── modules/             # Device repair & forensic tools
+├── integrations/        # Memory Plugin, Notion, GitHub, Vill-AI-ge
+├── tools/               # Repo scanner, merge orchestrator, evidence importer
+└── docs/                # Architecture, protocols, APIs
+```
 
-### Phase 1: Foundation
-**Kernel Agent** (750 lines) - Orchestration engine (Plan → Act → Review)
+## 🚀 Quick Start
 
-### Phase 2: Design & Quality
-**Architect Agent** (698 lines) - Service scaffolding  
-**Tester Agent** (766 lines) - Test generation (85%+ coverage)
-
-### Phase 3: Infrastructure & Knowledge
-**Infrastructure Agent** (1,263 lines) - Docker/K8s/Terraform/CI-CD  
-**Docs Agent** (1,177 lines) - Documentation generation  
-**Migration Agent** (742 lines) - Database migrations & codemods
-
-### Phase 4: Operations & Observability
-**Analytics Agent** (1,577 lines) - Prometheus/Grafana/OpenTelemetry/Loki  
-**DevOps Agent** (1,055 lines) - Blue-green deployments, incident response  
-**Security Agent** (~400 lines) - Governance rules
-
-**Total: 9 agents, ~10,764 lines of production code**
-
-## 🏃 Quick Start
-
-### Installation
 ```bash
+# Clone repository
 git clone https://github.com/GlacierEQ/mastermind.git
 cd mastermind
-pnpm install
-pnpm build
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run evidence processor
+python -m agents.forensic_analyst.evidence_processor
+
+# Scan for device repair repos
+python tools/repo_scanner.py
+
+# Generate legal motion
+python -m agents.legal_automation.motion_generator
 ```
 
-### Generate Your First Service
-```bash
-pnpm ai:new-service payments --domain=billing --environment=production
-```
+## 📋 Case 1FDV-23-0001009
 
-This generates:
-- ✅ Complete service code (domain, API, database)
-- ✅ 40+ test files (85%+ coverage)
-- ✅ Docker configuration
-- ✅ Kubernetes manifests
-- ✅ Terraform infrastructure
-- ✅ GitHub Actions CI/CD
-- ✅ Prometheus & Grafana setup
-- ✅ OpenTelemetry tracing
-- ✅ API documentation
-- ✅ Deployment procedures
-- ✅ Incident runbooks
+Active Hawaii Family Court case with comprehensive evidence processing:
 
-## 🛠️ Features
+- **Financial Evidence**: 3 years bank statements, child support analysis
+- **Property Evidence**: Inspection reports, residential evaluations  
+- **Communications**: Phone records, OFW messages, meeting transcripts
+- **Legal Research**: Aloha Kai Chat, motion templates, citation database
 
-Every generated service includes:
+## 🔗 Integrations
 
-**Architecture**
-- Clean 3-layer design (Domain → App → Infra)
-- Type-safe TypeScript (strict mode)
-- Zero SQL injection possible
+- **Memory Plugin**: Persistent AI context (LFVBLPUL3N8N8K2FLYGCSCKMSMSRHSG9)
+- **Notion**: Case management database
+- **Vill-AI-ge**: Multi-AI collaboration (Kai, Perplexity, Claude)
+- **GitHub**: Automated repository orchestration
 
-**Testing**
-- 85%+ code coverage guaranteed
-- Unit, integration, and E2E tests
-- Test factories & fixtures
+## 📊 Evidence Types Supported
 
-**Infrastructure**
-- Docker (multi-stage, ~150MB)
-- Kubernetes (auto-scaling)
-- Terraform (infrastructure-as-code)
-- GitHub Actions (CI/CD)
+✅ Financial records (bank statements, tax documents, child support worksheets)
+✅ Property inspections (home inspection reports, residential evaluations)
+✅ Phone records (call logs, text messages)
+✅ Communications (email, messaging platforms, OFW reports)
+✅ Meeting transcripts (VoiceAccess, Zoom, court proceedings)
+✅ Legal documents (motions, orders, proposed decrees)
+✅ Forensic reports (device analysis, malware detection)
 
-**Monitoring**
-- Prometheus metrics
-- Grafana dashboards (3 custom views)
-- Alert rules (8+ critical)
-- Distributed tracing
-- Structured logging
+## 🛠️ Device Repair Capabilities
 
-**Operations**
-- Zero-downtime deployments
-- Automated incident response
-- Disaster recovery (15-min RTO)
-- Health checks
+### Windows
+- Registry repair
+- System file checks
+- Driver diagnostics
+- Boot recovery
 
-## 📊 Status
+### macOS  
+- Disk utility automation
+- APFS/HFS+ recovery
+- System log analysis
+- Firmware verification
 
-✅ **Phase 1-4: Complete**  
-✅ **9 Agents: Implemented**  
-✅ **~10,764 Lines: Production Code**  
-✅ **Tests: Passing**  
-✅ **Documentation: Comprehensive**  
+### iOS
+- Backup extraction
+- SQLite parsing (messages, calls)
+- Location history
+- App data recovery
 
-## 🔮 Roadmap
+### Android
+- ADB automation
+- Data extraction
+- Backup parsing
+- Forensic acquisition
 
-- **Phase 5 (Q1 2025)**: Advanced ML (predictive scaling, cost optimization)
-- **Phase 6 (Q2 2025)**: Self-healing infrastructure
-- **Phase 7 (Q3 2025)**: Self-improving systems
+### Universal
+- Disk imaging
+- Partition recovery
+- File carving
+- Cryptographic recovery
 
-## 📄 License
+## 📚 Documentation
 
-MIT - Use freely
+- [Architecture Guide](docs/ARCHITECTURE.md)
+- [Agent Systems](docs/AGENTS.md)
+- [Legal Procedures](docs/LEGAL-PROCEDURES.md)
+- [Forensic Protocols](docs/FORENSIC-PROTOCOLS.md)
+- [API Reference](docs/API-REFERENCE.md)
 
 ## 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md)
+This is a personal unified infrastructure for case management, device forensics, and legal automation. All device repair and forensic repositories across the GlacierEQ ecosystem will be merged here.
 
-## 📞 Support
+## 📜 License
 
-- [Issues](https://github.com/GlacierEQ/mastermind/issues)
-- [Discussions](https://github.com/GlacierEQ/mastermind/discussions)
+See [LICENSE](LICENSE) for details.
+
+## 🔗 Related Projects
+
+- [FEDERAL-FORENSIC-REPAIR-OMNIBUS](https://github.com/GlacierEQ/FEDERAL-FORENSIC-REPAIR-OMNIBUS)
+- [Memory Plugin](https://help.memoryplugin.com)
+- [Aloha Kai Legal Research](case-files/1FDV-23-0001009/research/aloha-kai-chat.json)
 
 ---
 
-**Welcome to the future of development.** 🚀
+**Tracking**: [Issue #12](https://github.com/GlacierEQ/mastermind/issues/12)
+**Status**: 🚧 Active Development - Powerhouse Build Phase

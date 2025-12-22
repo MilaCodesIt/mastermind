@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "mastermind-forensic-omnibus"
+version = "0.1.0"
+description = "Unified forensic-legal-repair omnibus with 9 specialized AI agents"
+authors = ["casey <GLACIER.EQUILIBRIUM@GMAIL.COM>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+github = "^2.0.0"
+cryptography = "^42.0.0"
+hashlib-extra = "^1.0.0"
+python-dateutil = "^2.8.2"
+requests = "^2.31.0"
+pandas = "^2.1.0"
+openpyxl = "^3.1.2"
+pypdf2 = "^3.0.1"
+python-docx = "^1.1.0"
+json5 = "^0.9.14"
+pyyaml = "^6.0.1"
+click = "^8.1.7"
+rich = "^13.7.0"
+tqdm = "^4.66.1"
+
+[tool.poetry.group.forensic.dependencies]
+sleuthkit = "^4.12.0"
+imageio = "^2.31.0"
+pillow = "^10.1.0"
+
+[tool.poetry.group.legal.dependencies]
+spacy = "^3.7.0"
+transformers = "^4.35.0"
+
+[tool.poetry.group.device-repair.dependencies]
+psutil = "^5.9.6"
+pywinrm = "^0.4.3"
+paramiko = "^3.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+scan-repos = "tools.repo_scanner:main"
+process-evidence = "agents.forensic_analyst.evidence_processor:main"
+generate-motion = "agents.legal_automation.motion_generator:main"
+device-repair = "agents.device_repair.orchestrator:main"
