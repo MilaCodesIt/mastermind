@@ -1,0 +1,60 @@
+# Epson Scan Evidence
+
+**File**: Epson_10222024113804 2.pdf  
+**Characters**: 5,316  
+**Case**: 1FDV-23-0001009  
+**Date Added**: December 22, 2025, 3:46 AM HST
+
+## Metadata
+
+**Scan Date**: October 22, 2024, 11:38:04  
+**Scanner**: Epson device  
+**File Size**: 2,270,816 bytes  
+**Format**: PDF
+
+## Chain of Custody
+
+**Received**: December 22, 2025, 3:46 AM HST  
+**Source**: Google Drive connector  
+**Original Scan**: October 22, 2024  
+**Processed by**: mastermind forensic automation  
+**SHA-256**: [To be calculated during forensic processing]
+
+## Evidence Classification
+
+- **Category**: Scanned Documents
+- **Sub-category**: Physical Document Evidence
+- **Relevance**: Case 1FDV-23-0001009
+- **Priority**: Medium-High
+
+## Analysis Notes
+
+Epson scan from October 22, 2024. The timestamp in filename (11:38:04) provides exact scan time. File size (2.27MB) suggests multi-page document or high-resolution scan.
+
+Potential content:
+- Court documents
+- Correspondence
+- Official records
+- Financial documents
+- Property records
+
+Requires OCR processing to extract text content and determine document type.
+
+## Processing Status
+
+- ✅ File received and cataloged
+- ⏳ Awaiting full OCR extraction
+- ⏳ Awaiting document classification
+- ⏳ Awaiting content analysis
+- ⏳ Awaiting cross-reference with case timeline (Oct 2024)
+
+## Timeline Context
+
+**October 22, 2024** falls within active case period for 1FDV-23-0001009. Cross-reference with:
+- Court docket entries for October 2024
+- OFW messages from October 2024
+- Other evidence dated around this time
+
+---
+
+**Note**: Full PDF content requires OCR processing. This metadata file serves as the forensic catalog entry.
