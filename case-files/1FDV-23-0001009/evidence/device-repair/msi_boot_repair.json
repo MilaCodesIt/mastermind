@@ -1,0 +1,98 @@
+{
+  "repair_request_id": "MSI_BOOT_REPAIR_001",
+  "timestamp": "2025-12-22T03:38:00Z",
+  "device": {
+    "manufacturer": "MSI",
+    "type": "Desktop PC",
+    "motherboard": "MSI Model (to be identified)",
+    "cpu": "Unknown",
+    "ram": "Unknown",
+    "storage": "Unknown"
+  },
+  "issue_description": "Boot failure - system not reaching POST or BIOS",
+  "symptoms": [
+    "No display output",
+    "No POST beep codes",
+    "Power LED may be on",
+    "Fans spinning but no boot",
+    "Possible BIOS corruption"
+  ],
+  "diagnostic_steps": [
+    "1. Check power supply connections",
+    "2. Test RAM modules individually",
+    "3. Clear CMOS battery",
+    "4. Test with minimal hardware (CPU + 1 RAM stick)",
+    "5. Check for bent CPU pins",
+    "6. Test PSU with multimeter",
+    "7. Inspect motherboard for physical damage",
+    "8. Attempt BIOS recovery via USB"
+  ],
+  "repair_workflow": {
+    "phase_1_hardware_diagnostics": [
+      "Visual inspection of motherboard",
+      "Check all power connections (24-pin, 8-pin CPU, PCIe)",
+      "Reseat RAM modules",
+      "Reseat GPU if present",
+      "Check CPU cooler mounting"
+    ],
+    "phase_2_bios_recovery": [
+      "Download latest BIOS from MSI website",
+      "Prepare BIOS recovery USB (FAT32 formatted)",
+      "Rename BIOS file to MSI.ROM",
+      "Use BIOS Flashback button if available",
+      "Wait for LED indicators during flash process"
+    ],
+    "phase_3_component_testing": [
+      "Test RAM with MemTest86",
+      "Test PSU with known-good replacement",
+      "Test GPU in different PCIe slot",
+      "Test storage devices individually"
+    ],
+    "phase_4_advanced_troubleshooting": [
+      "Check BIOS battery voltage (should be 3V)",
+      "Inspect capacitors for bulging/leaking",
+      "Check for shorts with multimeter",
+      "Test with POST card if available"
+    ]
+  },
+  "msi_specific_procedures": {
+    "bios_flashback": "Most MSI boards have a BIOS Flashback button on rear I/O. Press and hold for 3-5 seconds with properly formatted USB drive.",
+    "debug_leds": "Check motherboard for diagnostic LEDs indicating CPU, RAM, GPU, or boot device issues.",
+    "cmos_clear": "Locate JBAT1 jumper near CMOS battery. Short pins 1-2 for 10 seconds with power off.",
+    "common_issues": [
+      "BIOS corruption after failed update",
+      "Incompatible RAM (check QVL list)",
+      "Bent CPU socket pins",
+      "Failed CMOS battery",
+      "Damaged VRM components"
+    ]
+  },
+  "required_tools": [
+    "Phillips screwdriver",
+    "Anti-static wrist strap",
+    "Multimeter",
+    "USB drive (8GB+ FAT32)",
+    "POST card (optional)",
+    "Thermal paste",
+    "Isopropyl alcohol",
+    "Magnifying glass/loupe"
+  ],
+  "safety_precautions": [
+    "Disconnect power before opening case",
+    "Use anti-static protection",
+    "Avoid touching components directly",
+    "Work on non-conductive surface",
+    "Document all changes"
+  ],
+  "forensic_logging": {
+    "enabled": true,
+    "log_location": "case-files/1FDV-23-0001009/evidence/device-repair/logs/",
+    "chain_of_custody": true,
+    "photo_documentation": "Required for all repair steps",
+    "sha256_verification": "All BIOS files and firmware"
+  },
+  "estimated_repair_time": "2-4 hours (hardware diagnostics + BIOS recovery)",
+  "priority": "high",
+  "case_reference": "1FDV-23-0001009",
+  "notes": "This repair request is associated with Case 1FDV-23-0001009. All repair activities must be forensically documented with complete chain-of-custody."
+}
