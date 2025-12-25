@@ -145,3 +145,18 @@ See [LICENSE](LICENSE) for details.
 
 **Tracking**: [Issue #12](https://github.com/GlacierEQ/mastermind/issues/12)
 **Status**: 🚧 Active Development - Powerhouse Build Phase
+
+---
+
+## 🌌 Omni-Engine Integration (v1.0.0-MAX)
+The Mastermind OS is now powered by the **Omni_Engine Kernel**.
+
+### New Capabilities:
+- **Autonomous Repo Ops**: Full-loop completion and deployment via Repo Operator 2.0.
+- **Quantum Context**: Unlimited reasoning depth for complex forensic chains.
+- **Microwave Execution**: Parallel agent orchestration across all 9 specialized tracks.
+- **Meta-Forge**: Dynamic skill and MCP generation on the fly.
+
+### Entry Point:
+- **Kernel**: `omni-kernel/core/`
+- **Dash**: `dashboard/mission_control.md`
